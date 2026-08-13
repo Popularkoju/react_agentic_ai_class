@@ -67,14 +67,14 @@ const students= [
 
 function getPresentStudents(){
 
-  students.map((student) => {
+  students.forEach((student) => {
   if (student.present) {
     console.log(`${student.name} is present`);
   }
 });
 }
 console.log("\n ----- ASSIGNMENT 3 ------");
-console.log(getPresentStudents())
+getPresentStudents();
 
 //ASSINGNMENT 4-------------------------------
 
