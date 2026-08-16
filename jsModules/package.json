@@ -1,0 +1,14 @@
+{
+  "name": "test_project",
+  "version": "1.0.0",
+  "description": "test project for learing js modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "author": "popular",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^6.0.0"
+  }
+}
